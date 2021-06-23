@@ -1,0 +1,31 @@
+.chat-details {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 100%;
+}
+.chat-history {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.chat-right {
+  text-align: right;
+}
+
+.chat-details-footer {
+  display: flex;
+}
+
+.chat-input {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.send-button {
+  margin-left: 1rem;
+  cursor: pointer;
+}
